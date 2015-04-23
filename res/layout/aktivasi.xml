@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+	android:id="@+id/widget88"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout
+		android:id="@+id/widget80"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true">
+		<TextView
+			android:id="@+id/textView1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Id Number : ">
+		</TextView>
+		<EditText
+			android:id="@+id/regname"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+		</EditText>
+	</LinearLayout>
+	
+<Button
+android:id="@+id/completeReg_button"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Register"
+android:layout_below="@+id/widget80"
+android:layout_alignParentLeft="true"
+android:onClick="clickHandler">
+</Button>
+</RelativeLayout>
